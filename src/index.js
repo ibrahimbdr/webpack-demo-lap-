@@ -1,37 +1,12 @@
 import hello from "./hello world"
 hello()
-
-
-
-
-
-import "./style.css"
-
-
-
-import "./component/header/header"
-import"./component/cover/cover"
-
-import"./component/bio/bio"
-
-
+// main style file
+import './style.css'
+//image files
 import"./assets/city.png"
-
-
-
-
-
-
-// // //
-// // /* 
-// // this is a big comment
-
-
-
-
-
-
-
-
-
-// //  */
+import "./assets/cover.jpg"
+import "./assets/image.png"
+//import components
+import './component/header/header.js'
+import './component/cover/cover.js'
+import './component/bio/bio.js'
